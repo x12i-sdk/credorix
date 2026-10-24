@@ -31,3 +31,16 @@ This is a documentation knowledge SDK. It is installed as a development dependen
 - [Reviewed package source](https://github.com/x12i/credorix/tree/860e0eab139c54e2126a233d8c7b660c2390d3f4/packages/credorix-docs)
 
 The `package.json` in this repository is private to prevent accidental publication of the example application under an npm package name.
+
+## @x12i/credorix runtime example
+
+Credorix facade package for client applications.
+
+Read a sanitized authentication profile through the facade package. This example consumes `@x12i/credorix@1.5.0`.
+
+```sh
+npm install --ignore-scripts
+npm run example:credorix
+```
+
+Source: [`src/credorix-example.mjs`](src/credorix-example.mjs). The original documentation-package example remains available through `npm start`. Both examples are checked independently.

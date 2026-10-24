@@ -13,13 +13,31 @@
     "command": "npm start",
     "requiresCredentials": false,
     "validation": "passed",
-    "validatedAt": "2026-10-24T13:01:45.744103+00:00",
+    "validatedAt": "2026-10-24T14:37:06.594991+00:00",
     "isolatedInstallation": true,
     "sourceSha256": "1c33f5687b04d23d94088a799c6ca535e0626f6626eb9b366022020e3e409c21",
-    "manifestSha256": "90f93ed26c31d36169051ca12977d4c466c7cc739cfb1e9352c759cfa4d97bdd"
+    "manifestSha256": "c9de6bfac449154bb04370efa198a7af3c181daf814389167d019dc919bfdec7"
   },
   "npmPackages": [
     "@x12i/credorix-docs"
   ],
-  "publisher": "x12i-publisher[bot]"
+  "publisher": "x12i-publisher[bot]",
+  "additionalExamples": {
+    "@x12i/credorix": {
+      "packageVersion": "1.5.0",
+      "title": "Read a sanitized authentication profile through the facade package",
+      "entrypoint": "src/credorix-example.mjs",
+      "command": "npm run example:credorix",
+      "requiresCredentials": false,
+      "validation": "passed",
+      "isolatedInstallation": true,
+      "sourceSha256": "9d0494d5e50ce4eea5ace8abcf900e750c0e9df7368223e99c5bdd22c80859f4",
+      "manifestSha256": "c9de6bfac449154bb04370efa198a7af3c181daf814389167d019dc919bfdec7",
+      "validatedAt": "2026-10-24T14:37:06.594991+00:00"
+    }
+  },
+  "validationFiles": {
+    "src/credorix-example.mjs": "9d0494d5e50ce4eea5ace8abcf900e750c0e9df7368223e99c5bdd22c80859f4",
+    "src/index.mjs": "1c33f5687b04d23d94088a799c6ca535e0626f6626eb9b366022020e3e409c21"
+  }
 }
