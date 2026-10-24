@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "package": "@x12i/credorix-docs",
+  "packageVersion": "1.7.0",
+  "npmUrl": "https://www.npmjs.com/package/@x12i/credorix-docs",
+  "usageRepository": "https://github.com/x12i-sdk/credorix",
+  "sourceRepository": "https://github.com/x12i/credorix",
+  "sourceCommit": "860e0eab139c54e2126a233d8c7b660c2390d3f4",
+  "sourcePackageDirectory": "packages/credorix-docs",
+  "example": {
+    "title": "List the bundled guides and read a use case",
+    "entrypoint": "src/index.mjs",
+    "command": "npm start",
+    "requiresCredentials": false,
+    "validation": "passed",
+    "validatedAt": "2026-10-24T13:01:45.744103+00:00",
+    "isolatedInstallation": true,
+    "sourceSha256": "1c33f5687b04d23d94088a799c6ca535e0626f6626eb9b366022020e3e409c21",
+    "manifestSha256": "90f93ed26c31d36169051ca12977d4c466c7cc739cfb1e9352c759cfa4d97bdd"
+  },
+  "npmPackages": [
+    "@x12i/credorix-docs"
+  ],
+  "publisher": "x12i-publisher[bot]"
+}
